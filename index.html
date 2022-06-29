@@ -4,7 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>BinToDec</title>
   </head>
-  <body></body>
+  <body>
+    <div class="pageContainer">
+      <div>
+        <h1>Binary to Decimal!</h1>
+        <label>Binary code:</label>
+        <div class="binaryCodeContainer">
+          <input id="binaryCode" type="number" />
+          <div id="errorMessage"></div>
+        </div>
+      </div>
+      <div class="decimalContainer">
+        <label>Decimal code:</label>
+        <span id="decimalCode"></span>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
